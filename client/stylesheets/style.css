@@ -1,0 +1,85 @@
+body {
+  font-family: "proxima-nova",sans-serif;
+  color: rgb(51, 51, 50);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+/* General button style (reset) */
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: block;
+  margin: 15px 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  width: 503px;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+  border-radius: 0 0 5px 5px;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-red {
+  background: #cb4e4e;
+  color: #fff;
+  box-shadow: 0 6px #ab3c3c;
+}
+
+.btn-red:hover {
+  box-shadow: 0 4px #ab3c3c;
+  top: 2px;
+}
+
+.btn-red:active {
+  box-shadow: 0 0 #ab3c3c;
+  top: 6px;
+}
+
+.btn-purple {
+  background: rgb(130, 58, 160);
+  color: #fff;
+  box-shadow: 0 6px #652182;
+}
+
+.btn-purple:hover {
+  box-shadow: 0 4px #652182;
+  top: 2px;
+}
+
+.btn-purple:active {
+  box-shadow: 0 0 #652182;
+  top: 6px;
+}
