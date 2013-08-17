@@ -6,3 +6,7 @@
 autopublish
 insecure
 preserve-inputs
+standard-app-packages
+HTML5-History-API
+page-js-ie-support
+router
