@@ -10,6 +10,19 @@ body {
 h1 {
 }
 
+.logo {
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.logo-1 {
+  color: #9b59b6;
+}
+
+.logo-2 {
+  color: #2c3e50;
+}
+
 .content {
   max-width: 700px;
   margin: 0 auto;
@@ -28,15 +41,15 @@ h1 {
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 25px 80px;
+  padding: 20px 50px;
   display: block;
-  margin: 15px 5px;
+  margin: 15px 0px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
   outline: none;
   position: relative;
-  width: 503px;
+  width: 180px;
   -webkit-transition: none;
   -moz-transition: none;
   transition: none;
