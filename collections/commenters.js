@@ -1,0 +1,1 @@
+Commenters = new Meteor.Collection("Commenters");

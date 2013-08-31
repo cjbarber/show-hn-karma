@@ -1,0 +1,9 @@
+<template name="commenter">
+  <div class="commenter">
+    <h3>{{username}}</h3>
+    <p>Given: {{feedback_given}}</p>
+    {{#if project}}
+    <p>Received: {{project.feedback_received}}</p>
+    {{/if}}
+  </div>
+</template>
