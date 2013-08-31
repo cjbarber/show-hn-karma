@@ -1,9 +1,12 @@
 <template name="commenter">
   <div class="commenter">
     <h3>{{username}}</h3>
-    <p>Given: {{feedback_given}}</p>
-    {{#if project}}
-    <p>Received: {{project.feedback_received}}</p>
+    <p>Feedback Given: {{feedback_given}}</p>
+    {{#if project.body}}
+    <p>Feedback Received: {{project.feedback_received}}</p>
+    <p>{{{project.body}}}</p>
+    {{else}}
+    <p>No project posted, they are just helping out :)</p>
     {{/if}}
   </div>
 </template>
