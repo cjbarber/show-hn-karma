@@ -1,12 +1,3 @@
-// Meteor.methods({
-//   pullPostData: function () {
-//     this.unblock();
-//     var data = HTTP.call("GET", "http://node-hnapi.herokuapp.com/item/6294650");
-//     console.log(data.content);
-//     return data.content;
-//   }
-// });
-
 var createCommenterIfNeeded = function(user) {
   var existing = Commenters.findOne({username: user});
 
