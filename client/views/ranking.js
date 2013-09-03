@@ -11,7 +11,7 @@ Template.ranking.helpers({
 });
 
 Template.ranking.events({
-  'click a': function(e) {
+  'click button': function(e) {
     e.preventDefault();
 
     Meteor.call('loadCommenters');
