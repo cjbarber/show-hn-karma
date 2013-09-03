@@ -3,7 +3,8 @@
   "dependencies": {
     "basePackages": {
       "router": {},
-      "cron-tick": {}
+      "cron-tick": {},
+      "cron": {}
     },
     "packages": {
       "router": {
@@ -15,6 +16,11 @@
         "git": "https://github.com/tmeasday/meteor-cron.git",
         "tag": "v0.0.3",
         "commit": "977a53e790e86b57479ef754a0560461ec9ad22c"
+      },
+      "cron": {
+        "git": "https://github.com/alexsuslov/Meteor.cron.git",
+        "tag": "v0.0.1",
+        "commit": "5216d14472fee7b692e8371aadc9f35f54ba9bb0"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",

@@ -1,6 +1,7 @@
 {
   "packages": {
     "router": {},
-    "cron-tick": {}
+    "cron-tick": {},
+    "cron": {}
   }
 }
