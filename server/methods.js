@@ -63,5 +63,14 @@ Meteor.methods({
   loadCommenters: function() {
     this.unblock();
     HTTP.call("GET", "http://node-hnapi.herokuapp.com/item/6294650", processComments);
+    var allCommenters = Commenters.find({},{});
+    allCommenters.forEach(function (commenter) {
+      Commenters.update(commenter, {$set: {
+        feedback_given: 0,
+        project: {
+          feedback_received: 0
+        }
+      }});
+    });
   }
 })
