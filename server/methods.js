@@ -62,7 +62,7 @@ var processComments = function(err, result) {
 Meteor.methods({
   loadCommenters: function() {
     this.unblock();
-    HTTP.call("GET", "http://node-hnapi.herokuapp.com/item/6335447", processComments);
+    HTTP.call("GET", "http://node-hnapi.herokuapp.com/item/7169418", processComments);
     var allCommenters = Commenters.find({},{});
     allCommenters.forEach(function (commenter) {
       Commenters.update(commenter, {$set: {
