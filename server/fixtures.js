@@ -4,7 +4,7 @@
 Cron = function(interval) {
   var self = this;
   
-  interval = interval || 60 * 1000;
+  interval = interval || 60 * 1000 * 6 * 24 * 7;
   
   self._jobs = [];
   self._schedules = [];
